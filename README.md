@@ -11,7 +11,11 @@ git-hubからダウンロード、もしくはcloneしてください。
 以下はcloneのサンプルです。１行です。myProjectの部分は新しいプロジェクト名です。
 ```
 git clone https://github.com/mick-whats/boilerPlate-node-coffee-ava.git myProject
+
+# use hub
+hub clone mick-whats/boilerPlate-node-coffee-ava
 ```
+
 ## init
 
 以下を変更して使ってください。
