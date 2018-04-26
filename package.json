@@ -1,6 +1,7 @@
 {
   "name": "boilerPlate-node-coffee-ava",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "test": "ava",
     "compile": "coffee -o ./ -cw coffee/",
