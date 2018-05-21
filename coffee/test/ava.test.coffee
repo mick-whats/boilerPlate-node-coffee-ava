@@ -1,5 +1,5 @@
 assert = require 'assert'
-_ = require 'lodash'
+_ = require('xza').lodash
 {test} = require 'ava'
 
 sleep = (date,ms = 100) ->
@@ -11,6 +11,8 @@ sleep = (date,ms = 100) ->
 start = null
 test.serial.before (t)->
   start = new Date()
+test 'lodash',(t)->
+  t.is _.sizeof({a: 1}), '10 B'
 
 test 'test_1',(t)->
   now = await sleep(start)

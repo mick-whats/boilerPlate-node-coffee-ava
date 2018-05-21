@@ -4,7 +4,7 @@
 
   assert = require('assert');
 
-  _ = require('lodash');
+  _ = require('xza').lodash;
 
   ({test} = require('ava'));
 
@@ -20,6 +20,12 @@
 
   test.serial.before(function(t) {
     return start = new Date();
+  });
+
+  test('lodash', function(t) {
+    return t.is(_.sizeof({
+      a: 1
+    }), '10 B');
   });
 
   test('test_1', async function(t) {

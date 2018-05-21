@@ -1,6 +1,5 @@
 _ = require 'lodash'
 root = require('rrq').root()
-args2 = require 'args2'
 
 class SampleClass
 
