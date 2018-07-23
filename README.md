@@ -29,7 +29,7 @@ hub clone mick-whats/boilerPlate-node-coffee-ava
 }
 
 ```
-
+LICENSE.txtの年表示を変更。
 dependencies、devDependenciesは適当に。
 
 gitリポジトリの削除、初期化、npmインストールを行います。

@@ -1,6 +1,6 @@
 {
   "name": "boilerPlate-node-coffee-ava",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "scripts": {
     "test": "ava",
@@ -21,30 +21,6 @@
     "chokidar": "^2.0.3",
     "chokidar-cli": "^1.2.0",
     "coffeescript": "^2.2.3"
-  },
-  "coffeelintConfig": {
-    "max_line_length": {
-      "level": "ignore"
-    },
-    "colon_assignment_spacing": {
-      "level": "warn",
-      "spacing": {
-        "left": 0,
-        "right": 1
-      }
-    },
-    "missing_fat_arrows": {
-      "level": "warn"
-    },
-    "no_interpolation_in_single_quotes": {
-      "level": "warn"
-    },
-    "no_unnecessary_fat_arrows": {
-      "level": "ignore"
-    },
-    "no_unnecessary_double_quotes": {
-      "level": "warn"
-    }
   },
   "ava": {
     "files": [
