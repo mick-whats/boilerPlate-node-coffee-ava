@@ -6,7 +6,8 @@
     "test": "ava",
     "compile": "coffee -o ./ -cw coffee/",
     "watch:ava": "chokidar 'lib/*.js' 'test/*.js' -c 'nyc ava'",
-    "watch": "npm run compile &node watch.js &npm run watch:ava",
+    "watch:all": "npm run compile &node watch.js &npm run watch:ava",
+    "watch": "npm run compile &ava -w",
     "cover": "nyc ava",
     "report": "nyc report --reporter=html",
     "update:snap": "ava --update-snapshots"
@@ -32,7 +33,7 @@
     "failFast": false,
     "serial": false,
     "tap": false,
-    "verbose": false,
+    "verbose": true,
     "color": true,
     "watch": false
   },
